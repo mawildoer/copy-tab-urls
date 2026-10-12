@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Copy Selected Tab URLs",
+  "version": "1.0.0",
+  "description": "Copy the URLs of all selected (highlighted) tabs to the clipboard, one per line.",
+  "permissions": ["tabs", "clipboardWrite"],
+  "action": {
+    "default_title": "Copy selected tab URLs",
+    "default_popup": "popup.html"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": { "default": "Alt+Shift+C", "mac": "Alt+Shift+C" },
+      "description": "Copy selected tab URLs"
+    }
+  }
+}
